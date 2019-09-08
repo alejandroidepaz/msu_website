@@ -1,0 +1,22 @@
+{
+  "name": "msu_website",
+  "version": "1.0.0",
+  "description": "Website for Mixed Student Union.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandroidepaz/msu_website.git"
+  },
+  "author": "Alejandro De Paz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejandroidepaz/msu_website/issues"
+  },
+  "homepage": "https://github.com/alejandroidepaz/msu_website#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
