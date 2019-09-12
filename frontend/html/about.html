@@ -15,15 +15,16 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
     <title>MSU</title>
   </head>
   <body class="bg-dark">
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#">
-          <strong>Mixed Student Union</strong></a
-        >
+        <a href="/" class="navbar-left"
+          ><img src="../images/LogoWhiteTransparent.png" id="nav_logo"
+        /></a>
+
         <button
           class="navbar-toggler"
           type="button"
@@ -39,12 +40,14 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html"
+              <a class="nav-link" href="/"
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="about">About Us</a>
+            </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -89,19 +92,16 @@
       <hr class="my-4" />
 
       <div
-        id="carouselExampleSlidesOnly"
+        id="bioImages"
         class="carousel slide"
         data-ride="carousel"
+        data-interval="5000"
       >
         <div class="carousel-inner">
           <ol class="carousel-indicators">
-            <li
-              data-target="#carouselExampleIndicators"
-              data-slide-to="0"
-              class="active"
-            ></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#bioImages" data-slide-to="0" class="active"></li>
+            <li data-target="#bioImages" data-slide-to="1"></li>
+            <li data-target="#bioImages" data-slide-to="2"></li>
           </ol>
           <div class="carousel-item active">
             <img src="../images/shoes.jpg" class="d-block w-100" alt="..." />
@@ -116,7 +116,7 @@
 
         <a
           class="carousel-control-prev"
-          href="#carouselExampleIndicators"
+          href="#bioImages"
           role="button"
           data-slide="prev"
         >
@@ -125,7 +125,7 @@
         </a>
         <a
           class="carousel-control-next"
-          href="#carouselExampleIndicators"
+          href="#bioImages"
           role="button"
           data-slide="next"
         >
