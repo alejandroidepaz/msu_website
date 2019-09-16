@@ -1,10 +1,11 @@
-.carousel .carousel-item {
-  height: 500px;
-  max-height: 100%;
-  max-width: auto;
+nav {
+  background-color: black;
+}
+footer {
+  background-color: black;
 }
 
-nav {
+body {
   background-color: black;
 }
 
@@ -13,7 +14,23 @@ p {
   text-align: center;
 }
 
+.card {
+  box-shadow: 10px 10px 8px 10px #888888;
+}
+
 #nav_logo {
   height: 50px;
   width: auto;
+}
+
+#footer_logo {
+  height: 40px;
+  width: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .card {
+    width: 32rem;
+    height: auto;
+  }
 }
